@@ -47,12 +47,12 @@
 - (void)setupNavPopButton {
     NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
     normalAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
-    normalAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:16];
+    normalAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:14];
     NSAttributedString *normalAttrsString = [[NSAttributedString alloc] initWithString:@"返回" attributes:normalAttrs];
     
     UIButton * backButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [backButton setAttributedTitle:normalAttrsString forState:UIControlStateNormal];
-    [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
+    [backButton setImage:[UIImage imageNamed:@"backarrow"] forState:UIControlStateNormal];
     [backButton sizeToFit];
     [backButton addTarget:self action:@selector(backButtonClick) forControlEvents:UIControlEventTouchUpInside];
     backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);

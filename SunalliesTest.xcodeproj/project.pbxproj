@@ -16,6 +16,7 @@
 		0A007DF41D0F8C9C0051EA39 /* UINavigationController+ZHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A007DEA1D0F8C9C0051EA39 /* UINavigationController+ZHYExtension.m */; };
 		0A007DF51D0F8C9C0051EA39 /* UIView+ZHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A007DEC1D0F8C9C0051EA39 /* UIView+ZHYExtension.m */; };
 		0A007DF61D0F8C9C0051EA39 /* ZHYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A007DEE1D0F8C9C0051EA39 /* ZHYConst.m */; };
+		0A007DFA1D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A007DF91D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.m */; };
 		0ADD2CD11D0ECAF100D06BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD2CD01D0ECAF100D06BCC /* main.m */; };
 		0ADD2CD41D0ECAF100D06BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD2CD31D0ECAF100D06BCC /* AppDelegate.m */; };
 		0ADD2CDC1D0ECAF100D06BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADD2CDB1D0ECAF100D06BCC /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 		0A007DED1D0F8C9C0051EA39 /* ZHYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYConst.h; sourceTree = "<group>"; };
 		0A007DEE1D0F8C9C0051EA39 /* ZHYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYConst.m; sourceTree = "<group>"; };
 		0A007DF71D0F8F740051EA39 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0A007DF81D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZHYExtension.h"; sourceTree = "<group>"; };
+		0A007DF91D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZHYExtension.m"; sourceTree = "<group>"; };
 		0ADD2CCC1D0ECAF100D06BCC /* SunalliesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunalliesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADD2CD01D0ECAF100D06BCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0ADD2CD21D0ECAF100D06BCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				0A007DEA1D0F8C9C0051EA39 /* UINavigationController+ZHYExtension.m */,
 				0A007DEB1D0F8C9C0051EA39 /* UIView+ZHYExtension.h */,
 				0A007DEC1D0F8C9C0051EA39 /* UIView+ZHYExtension.m */,
+				0A007DF81D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.h */,
+				0A007DF91D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.m */,
 				0A007DED1D0F8C9C0051EA39 /* ZHYConst.h */,
 				0A007DEE1D0F8C9C0051EA39 /* ZHYConst.m */,
 			);
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A007DFA1D0FA3A00051EA39 /* UIBarButtonItem+ZHYExtension.m in Sources */,
 				0A007DDC1D0F88D30051EA39 /* ZHYMineController.m in Sources */,
 				0ADD2CE81D0ECEB200D06BCC /* ZHYMainTabBarController.m in Sources */,
 				0A007DD01D0F88170051EA39 /* ZHYFinancingController.m in Sources */,
